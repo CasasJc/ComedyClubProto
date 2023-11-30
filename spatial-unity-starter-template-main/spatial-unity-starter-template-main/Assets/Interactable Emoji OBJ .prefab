@@ -1,0 +1,174 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1142189366754812600
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1142189366754812601}
+  - component: {fileID: 1142189366754812484}
+  - component: {fileID: 1142189366754812487}
+  - component: {fileID: 1142189366754812486}
+  - component: {fileID: 1142189366754812482}
+  - component: {fileID: 1142189366754812485}
+  m_Layer: 0
+  m_Name: 'Interactable Emoji OBJ '
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1142189366754812601
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1142189366754812600}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 16.7, y: 10.48, z: -1.2253468}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1142189366754812484
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1142189366754812600}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a1c437d99c9a4616adbe21f3ffa0e18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactText: Emoji
+  iconType: 3
+  icon: {fileID: 21300000, guid: 25235877b0a284b98afcd6ab87f71460, type: 3}
+  interactiveRadius: 2
+  visibilityRadius: 5
+  onInteractEvent:
+    id: 0
+    unityEventIsSynced: 0
+    unityEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    animatorEvent:
+      events: []
+    questEvent:
+      events: []
+  onEnterEvent:
+    id: 0
+    unityEventIsSynced: 0
+    unityEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    animatorEvent:
+      events: []
+    questEvent:
+      events: []
+  onExitEvent:
+    id: 0
+    unityEventIsSynced: 0
+    unityEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    animatorEvent:
+      events: []
+    questEvent:
+      events: []
+--- !u!114 &1142189366754812487
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1142189366754812600}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Emoji
+      Score Text","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"TMPro.TextMeshPro,
+      Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Emoji
+      Score Integer","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Emoji
+      String","value":{"$content":"","$type":"System.String"},"typeHandle":{"Identification":"System.String,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Tomato
+      Interactable","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Timer
+      duration","value":{"$content":60.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Timer
+      Test Text","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"TMPro.TextMeshProUGUI,
+      Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+--- !u!114 &1142189366754812486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1142189366754812600}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 6f4840747ef27c24d9a0d6fceabf3207, type: 2}
+--- !u!114 &1142189366754812482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1142189366754812600}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 453ac99a2b5f649ac8bc612b1e3142ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  syncTransform: 1
+  syncRigidbody: 0
+  saveWithSpace: 0
+  destroyOnCreatorDisconnect: 0
+  assetID: 
+  instanceID: 
+--- !u!114 &1142189366754812485
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1142189366754812600}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a64ac5e80ebf444b7be149b105925d21, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  variableSettings:
+  - id: 0
+    name: Emoji Score Integer
+    saveWithSpace: 0
+    syncRate: 10
+  - id: 0
+    name: Emoji String
+    saveWithSpace: 0
+    syncRate: 10
+  - id: 0
+    name: Timer duration
+    saveWithSpace: 0
+    syncRate: 10
